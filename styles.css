@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+}
+
+.btn-secondary {
+    background-color: #fbbc05;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #eaf1f8;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.clients-logos img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    width: 45%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 20px;
+}
+
+#services ul {
+    list-style-type: none;
+}
+
+#services li {
+    margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+}
+
+.testimonial-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-item {
+    width: 300px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input, #contact select, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer form {
+    margin-top: 15px;
+}
